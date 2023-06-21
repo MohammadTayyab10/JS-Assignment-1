@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 14-16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>Array</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var qualification = [];
+        var user = prompt("ENTER YOUR QUALIFICATION");
+        qualification.push(user);
+        alert(qualification);
+        alert("QUALIFICATION END");
+        var color = ["brown", "blue", "red"];
+        var colors = prompt("ENTER COLOR \n METHOD:PUSH");
+        color.push(colors);
+        alert(color);
+        var color = ["brown", "blue", "red"];
+        var colors = prompt("ENTER COLOR \n METHOD:POP");
+        color.pop(colors);
+        alert(color);
+        var color = ["brown", "blue", "red"];
+        var colors = prompt("ENTER COLOR \n METHOD:UNSHIFT");
+        color.unshift(colors);
+        alert(color);
+        var color = ["brown", "blue", "red"];
+        var colors = prompt("ENTER COLOR \n METHOD:SHIFT");
+        color.shift(colors);
+        alert(color);
+        var color = ["brown", "blue", "red"];
+        var index = prompt("ENTER INDEX NUMBER")
+        var colors = prompt("ENTER COLOR \n METHOD:SPLICE");
+        color.splice(index, 0,colors);
+        alert(color);
+    </script>
+</body>
+</html>

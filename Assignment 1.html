@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>User Input &amp; Conditional Statement</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var city = prompt("ENTER YOUR CITY \n Karachi");
+        if (city == "karachi") {
+            alert("City of Lights");
+        } else {
+            alert("Wrong city");
+        }
+        var gender = prompt("ENTER YOUR GENDER");
+        if (gender == "male") {
+            alert("GOOD MORNING SIR")
+        } else if (gender == "female") {
+            alert("GOOD MORNING MA'AM")
+        } else {
+            alert("TEACHERS NOT ALLOW")
+        }
+        var light = prompt("ENTER THE SIGINAL LIGHT COLOR \n red \n yellow \n green");
+        if (light == "red") {
+            alert("Stop")
+        } else if (light == "yellow") {
+            alert("Ready")
+        } else if (light == "green") {
+            alert("Go")
+        } else {
+            alert("ERROR")
+        }
+        var fuel = +prompt("ENTER FUEL IN YOUR CAR \n 0.25");
+        if (fuel <= 0.25){
+            alert("PLEASE REFILL FUEL IN YOUR CAR")
+        }else{
+            alert("FUEL IS ENOUGH")
+        }
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+        var secret =+ 7;
+        var user =+ prompt("ENTER THE GUESSED NUMBER");
+        if(user === secret){
+            alert("Bingo")
+        }else if(user === ++secret){
+            alert("YOU ARE VERY CLOSE TO THE ANSWER")
+        }else{
+            alert("NOT EVEN CLOSE")
+        }
+        var num1 = +prompt("ENTER YOUR FIRST MARKS");
+        var num2 = +prompt("ENTER YOUR SECOND MARKS");
+        var num3 = +prompt("ENTER YOUR THIRD MARKS");
+        var total = num1+num2+num3;
+        var percent =+ total/300 * 100;
+        document.write("TOTAL MARKS" + "300" + "<br>");
+        document.write("YOUR TOTAL MARKS ARE" + " " + total + "<br>");
+        document.write("YOUR PERCENTAGE IS" + " " + percent + "%" + "<br>");
+        if(percent >= 80){
+            document.write("YOUR GRADE IS A'");
+        }else if(percent >= 70){
+            document.write("YOUR GRADE IS A")
+        }else if(percent >= 60){
+            document.write("YOUR GRADE IS B")
+        }else if(percent >= 50){
+            document.write("YOUR GRADE IS D")
+        }else if(percent >= 40){
+            document.write("YOUR GRADE IS E")
+        }else{
+            document.write("YOUR GRADE IS FAIL")
+        }
+
+    </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>User Input &amp; Conditional Statement</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var city = prompt("ENTER YOUR CITY \n Karachi");
+        if (city == "karachi") {
+            alert("City of Lights");
+        } else {
+            alert("Wrong city");
+        }
+        var gender = prompt("ENTER YOUR GENDER");
+        if (gender == "male") {
+            alert("GOOD MORNING SIR")
+        } else if (gender == "female") {
+            alert("GOOD MORNING MA'AM")
+        } else {
+            alert("TEACHERS NOT ALLOW")
+        }
+        var light = prompt("ENTER THE SIGINAL LIGHT COLOR \n red \n yellow \n green");
+        if (light == "red") {
+            alert("Stop")
+        } else if (light == "yellow") {
+            alert("Ready")
+        } else if (light == "green") {
+            alert("Go")
+        } else {
+            alert("ERROR")
+        }
+        var fuel = +prompt("ENTER FUEL IN YOUR CAR \n 0.25");
+        if (fuel <= 0.25){
+            alert("PLEASE REFILL FUEL IN YOUR CAR")
+        }else{
+            alert("FUEL IS ENOUGH")
+        }
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+        var secret =+ 7;
+        var user =+ prompt("ENTER THE GUESSED NUMBER");
+        if(user === secret){
+            alert("Bingo")
+        }else if(user === ++secret){
+            alert("YOU ARE VERY CLOSE TO THE ANSWER")
+        }else{
+            alert("NOT EVEN CLOSE")
+        }
+        var num1 = +prompt("ENTER YOUR FIRST MARKS");
+        var num2 = +prompt("ENTER YOUR SECOND MARKS");
+        var num3 = +prompt("ENTER YOUR THIRD MARKS");
+        var total = num1+num2+num3;
+        var percent =+ total/300 * 100;
+        document.write("TOTAL MARKS" + "300" + "<br>");
+        document.write("YOUR TOTAL MARKS ARE" + " " + total + "<br>");
+        document.write("YOUR PERCENTAGE IS" + " " + percent + "%" + "<br>");
+        if(percent >= 80){
+            document.write("YOUR GRADE IS A'");
+        }else if(percent >= 70){
+            document.write("YOUR GRADE IS A")
+        }else if(percent >= 60){
+            document.write("YOUR GRADE IS B")
+        }else if(percent >= 50){
+            document.write("YOUR GRADE IS D")
+        }else if(percent >= 40){
+            document.write("YOUR GRADE IS E")
+        }else{
+            document.write("YOUR GRADE IS FAIL")
+        }
+
+    </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>User Input &amp; Conditional Statement</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var city = prompt("ENTER YOUR CITY \n Karachi");
+        if (city == "karachi") {
+            alert("City of Lights");
+        } else {
+            alert("Wrong city");
+        }
+        var gender = prompt("ENTER YOUR GENDER");
+        if (gender == "male") {
+            alert("GOOD MORNING SIR")
+        } else if (gender == "female") {
+            alert("GOOD MORNING MA'AM")
+        } else {
+            alert("TEACHERS NOT ALLOW")
+        }
+        var light = prompt("ENTER THE SIGINAL LIGHT COLOR \n red \n yellow \n green");
+        if (light == "red") {
+            alert("Stop")
+        } else if (light == "yellow") {
+            alert("Ready")
+        } else if (light == "green") {
+            alert("Go")
+        } else {
+            alert("ERROR")
+        }
+        var fuel = +prompt("ENTER FUEL IN YOUR CAR \n 0.25");
+        if (fuel <= 0.25){
+            alert("PLEASE REFILL FUEL IN YOUR CAR")
+        }else{
+            alert("FUEL IS ENOUGH")
+        }
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+        var secret =+ 7;
+        var user =+ prompt("ENTER THE GUESSED NUMBER");
+        if(user === secret){
+            alert("Bingo")
+        }else if(user === ++secret){
+            alert("YOU ARE VERY CLOSE TO THE ANSWER")
+        }else{
+            alert("NOT EVEN CLOSE")
+        }
+        var num1 = +prompt("ENTER YOUR FIRST MARKS");
+        var num2 = +prompt("ENTER YOUR SECOND MARKS");
+        var num3 = +prompt("ENTER YOUR THIRD MARKS");
+        var total = num1+num2+num3;
+        var percent =+ total/300 * 100;
+        document.write("TOTAL MARKS" + "300" + "<br>");
+        document.write("YOUR TOTAL MARKS ARE" + " " + total + "<br>");
+        document.write("YOUR PERCENTAGE IS" + " " + percent + "%" + "<br>");
+        if(percent >= 80){
+            document.write("YOUR GRADE IS A'");
+        }else if(percent >= 70){
+            document.write("YOUR GRADE IS A")
+        }else if(percent >= 60){
+            document.write("YOUR GRADE IS B")
+        }else if(percent >= 50){
+            document.write("YOUR GRADE IS D")
+        }else if(percent >= 40){
+            document.write("YOUR GRADE IS E")
+        }else{
+            document.write("YOUR GRADE IS FAIL")
+        }
+
+    </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>User Input &amp; Conditional Statement</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var city = prompt("ENTER YOUR CITY \n Karachi");
+        if (city == "karachi") {
+            alert("City of Lights");
+        } else {
+            alert("Wrong city");
+        }
+        var gender = prompt("ENTER YOUR GENDER");
+        if (gender == "male") {
+            alert("GOOD MORNING SIR")
+        } else if (gender == "female") {
+            alert("GOOD MORNING MA'AM")
+        } else {
+            alert("TEACHERS NOT ALLOW")
+        }
+        var light = prompt("ENTER THE SIGINAL LIGHT COLOR \n red \n yellow \n green");
+        if (light == "red") {
+            alert("Stop")
+        } else if (light == "yellow") {
+            alert("Ready")
+        } else if (light == "green") {
+            alert("Go")
+        } else {
+            alert("ERROR")
+        }
+        var fuel = +prompt("ENTER FUEL IN YOUR CAR \n 0.25");
+        if (fuel <= 0.25){
+            alert("PLEASE REFILL FUEL IN YOUR CAR")
+        }else{
+            alert("FUEL IS ENOUGH")
+        }
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+        var secret =+ 7;
+        var user =+ prompt("ENTER THE GUESSED NUMBER");
+        if(user === secret){
+            alert("Bingo")
+        }else if(user === ++secret){
+            alert("YOU ARE VERY CLOSE TO THE ANSWER")
+        }else{
+            alert("NOT EVEN CLOSE")
+        }
+        var num1 = +prompt("ENTER YOUR FIRST MARKS");
+        var num2 = +prompt("ENTER YOUR SECOND MARKS");
+        var num3 = +prompt("ENTER YOUR THIRD MARKS");
+        var total = num1+num2+num3;
+        var percent =+ total/300 * 100;
+        document.write("TOTAL MARKS" + "300" + "<br>");
+        document.write("YOUR TOTAL MARKS ARE" + " " + total + "<br>");
+        document.write("YOUR PERCENTAGE IS" + " " + percent + "%" + "<br>");
+        if(percent >= 80){
+            document.write("YOUR GRADE IS A'");
+        }else if(percent >= 70){
+            document.write("YOUR GRADE IS A")
+        }else if(percent >= 60){
+            document.write("YOUR GRADE IS B")
+        }else if(percent >= 50){
+            document.write("YOUR GRADE IS D")
+        }else if(percent >= 40){
+            document.write("YOUR GRADE IS E")
+        }else{
+            document.write("YOUR GRADE IS FAIL")
+        }
+
+    </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>User Input &amp; Conditional Statement</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var city = prompt("ENTER YOUR CITY \n Karachi");
+        if (city == "karachi") {
+            alert("City of Lights");
+        } else {
+            alert("Wrong city");
+        }
+        var gender = prompt("ENTER YOUR GENDER");
+        if (gender == "male") {
+            alert("GOOD MORNING SIR")
+        } else if (gender == "female") {
+            alert("GOOD MORNING MA'AM")
+        } else {
+            alert("TEACHERS NOT ALLOW")
+        }
+        var light = prompt("ENTER THE SIGINAL LIGHT COLOR \n red \n yellow \n green");
+        if (light == "red") {
+            alert("Stop")
+        } else if (light == "yellow") {
+            alert("Ready")
+        } else if (light == "green") {
+            alert("Go")
+        } else {
+            alert("ERROR")
+        }
+        var fuel = +prompt("ENTER FUEL IN YOUR CAR \n 0.25");
+        if (fuel <= 0.25){
+            alert("PLEASE REFILL FUEL IN YOUR CAR")
+        }else{
+            alert("FUEL IS ENOUGH")
+        }
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+        var secret =+ 7;
+        var user =+ prompt("ENTER THE GUESSED NUMBER");
+        if(user === secret){
+            alert("Bingo")
+        }else if(user === ++secret){
+            alert("YOU ARE VERY CLOSE TO THE ANSWER")
+        }else{
+            alert("NOT EVEN CLOSE")
+        }
+        var num1 = +prompt("ENTER YOUR FIRST MARKS");
+        var num2 = +prompt("ENTER YOUR SECOND MARKS");
+        var num3 = +prompt("ENTER YOUR THIRD MARKS");
+        var total = num1+num2+num3;
+        var percent =+ total/300 * 100;
+        document.write("TOTAL MARKS" + "300" + "<br>");
+        document.write("YOUR TOTAL MARKS ARE" + " " + total + "<br>");
+        document.write("YOUR PERCENTAGE IS" + " " + percent + "%" + "<br>");
+        if(percent >= 80){
+            document.write("YOUR GRADE IS A'");
+        }else if(percent >= 70){
+            document.write("YOUR GRADE IS A")
+        }else if(percent >= 60){
+            document.write("YOUR GRADE IS B")
+        }else if(percent >= 50){
+            document.write("YOUR GRADE IS D")
+        }else if(percent >= 40){
+            document.write("YOUR GRADE IS E")
+        }else{
+            document.write("YOUR GRADE IS FAIL")
+        }
+
+    </script>
+</body>
+
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 9-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white;">
+    <h1>User Input &amp; Conditional Statement</h1>
+    <ul>
+        <li><a href="./Home.html" style="color: black;">Home.</a></li>
+    </ul>
+    <script>
+        var city = prompt("ENTER YOUR CITY \n Karachi");
+        if (city == "karachi") {
+            alert("City of Lights");
+        } else {
+            alert("Wrong city");
+        }
+        var gender = prompt("ENTER YOUR GENDER");
+        if (gender == "male") {
+            alert("GOOD MORNING SIR")
+        } else if (gender == "female") {
+            alert("GOOD MORNING MA'AM")
+        } else {
+            alert("TEACHERS NOT ALLOW")
+        }
+        var light = prompt("ENTER THE SIGINAL LIGHT COLOR \n red \n yellow \n green");
+        if (light == "red") {
+            alert("Stop")
+        } else if (light == "yellow") {
+            alert("Ready")
+        } else if (light == "green") {
+            alert("Go")
+        } else {
+            alert("ERROR")
+        }
+        var fuel = +prompt("ENTER FUEL IN YOUR CAR \n 0.25");
+        if (fuel <= 0.25){
+            alert("PLEASE REFILL FUEL IN YOUR CAR")
+        }else{
+            alert("FUEL IS ENOUGH")
+        }
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+        var c = 12;
+        if (c++ === 13) {
+            alert("condition 1 is true");
+        }
+        if (c === 13) {
+            alert("condition 2 is true");
+        }
+        if (++c < 14) {
+            alert("condition 3 is true");
+        }
+        if (c === 14) {
+            alert("condition 4 is true");
+        }
+        var secret =+ 7;
+        var user =+ prompt("ENTER THE GUESSED NUMBER");
+        if(user === secret){
+            alert("Bingo")
+        }else if(user === ++secret){
+            alert("YOU ARE VERY CLOSE TO THE ANSWER")
+        }else{
+            alert("NOT EVEN CLOSE")
+        }
+        var num1 = +prompt("ENTER YOUR FIRST MARKS");
+        var num2 = +prompt("ENTER YOUR SECOND MARKS");
+        var num3 = +prompt("ENTER YOUR THIRD MARKS");
+        var total = num1+num2+num3;
+        var percent =+ total/300 * 100;
+        document.write("TOTAL MARKS" + "300" + "<br>");
+        document.write("YOUR TOTAL MARKS ARE" + " " + total + "<br>");
+        document.write("YOUR PERCENTAGE IS" + " " + percent + "%" + "<br>");
+        if(percent >= 80){
+            document.write("YOUR GRADE IS A'");
+        }else if(percent >= 70){
+            document.write("YOUR GRADE IS A")
+        }else if(percent >= 60){
+            document.write("YOUR GRADE IS B")
+        }else if(percent >= 50){
+            document.write("YOUR GRADE IS D")
+        }else if(percent >= 40){
+            document.write("YOUR GRADE IS E")
+        }else{
+            document.write("YOUR GRADE IS FAIL")
+        }
+
+    </script>
+</body>
+
+</html>

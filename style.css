@@ -1,0 +1,14 @@
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: x-large;
+    color: red;
+}
+body{
+    background-color: black;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 6-9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Math Expressions</h1>
+    <ul>
+        <li><a href="./Home.html">Home.</a></li>
+    </ul>
+    <script>
+        var english = +prompt("ENTER YOUR ENGLISH MARKS OUT OF 100");
+        var math = +prompt("ENTER YOUR MATH MARKS OUT OF 100");
+        var urdu = +prompt("ENTER YOUR URDU MARKS OUT OF 100");
+        var total = 100;
+        var percentage = english;
+        var percentages = math;
+        var percentagess = urdu;
+        var t_m = english+urdu+math;
+        var percentagesss =+ t_m/300 * 100;
+        var totals = english+urdu+math;
+        document.write( "Subject" + " " + "Total" + " " + "Obtained" + " " + "Percentage" + "<br>");
+        document.write( "English" + " " + total + " " + english + " " + percentage+'%' + "<br>");
+        document.write( "Math" + " " + total + " " + math + " " + percentages+'%' + "<br>");
+        document.write( "Urdu" + " " + total + " " + urdu + " " + percentagess+'%' + "<br>");
+        document.write( " " + " " + " " + "300" + " " + totals + " " + percentagesss+'%');
+
+    </script>
+</body>
+</html>
